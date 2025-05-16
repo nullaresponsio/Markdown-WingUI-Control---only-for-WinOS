@@ -20,7 +20,7 @@
 //
 //   • User-mode rootkits inject DLLs into Explorer.exe and hook Win32 APIs
 //     (FindFirstFileW, EnumWindows, UI-draw calls) to hide or alter items.:contentReference[oaicite:2]{index=2}
-//
+// # KERNEL ONLY; user-mode not able to show corrupted eg Powershell UI not CLI on Windows 11 Pro!! Found it!!
 //   • Kernel-mode rootkits filter I/O at the file-system driver layer so
 //     Explorer never even “sees” certain files or directories.:contentReference[oaicite:3]{index=3}
 //
