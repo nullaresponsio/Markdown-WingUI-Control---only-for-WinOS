@@ -1,0 +1,1 @@
+![alt text](../../Users/bshan/Downloads/iPhone_15_Pro_Max_speaker_mic_freq_combiination.png)

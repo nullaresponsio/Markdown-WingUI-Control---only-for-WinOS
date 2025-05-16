@@ -1,0 +1,19 @@
+digraph RAG {
+	fontname=Helvetica rankdir=LR
+	Q [label="Input Query"]
+	E [label="Embedding
+text-embedding-3-small
+1536 D"]
+	V [label="Vector DB"]
+	R [label=Retriever]
+	A [label=Augmenter]
+	G [label="Generator
+LLM"]
+	O [label=Answer]
+	Q -> E
+	E -> V
+	V -> R
+	R -> A
+	A -> G
+	G -> O
+}
